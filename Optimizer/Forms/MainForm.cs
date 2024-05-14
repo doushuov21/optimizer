@@ -49,7 +49,7 @@ namespace Optimizer
         DesktopTypePosition _desktopItemPosition = DesktopTypePosition.Top;
 
         public List<AppInfo> AppsFromFeed = new List<AppInfo>();
-        readonly string _feedLink = "../../feed.json";
+        readonly string _feedLink = "https://github.com/doushuov21/optimizer/blob/master/feed.json";
         readonly string _feedImages = "https://raw.githubusercontent.com/hellzerg/optimizer/master/images/feed.zip";
 
         readonly string _licenseLink = "https://www.gnu.org/licenses/gpl-3.0.en.html";
